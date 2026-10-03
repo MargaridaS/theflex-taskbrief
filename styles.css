@@ -1,23 +1,16 @@
 /* styles.css */
 /* ===== 1. TIPOGRAFIES I BASES ===== */
-body, footer, section, p, a, button, h1, h2, h3, header, .logo a {
-    font-family: 'Century Gothic', sans-serif;
+/* Títols amb Titan One */
+h1, h2, h3 {
+    font-family: 'Titan One', cursive;
+    letter-spacing: 0.03em;
+    color: #e63946; /* Un color càlid o cridaner com el vermell/taronja */
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: linear-gradient(to bottom, #fdfcfb, #e2d1c3); /* gradient de nude a talp clar */
-    overflow-x: hidden;
-}
-
-header {
-    padding: 60px 20px;
-    text-align: center;   
-}
-
-p {
-    font-size: 18px;
-    color: #6e5f5f; /* marró vermellós */
+/* Text de paràgrafs ben llegible */
+p, span, li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #2b2d42;
 }
