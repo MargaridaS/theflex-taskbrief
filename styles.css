@@ -31,3 +31,43 @@ p, span, li, input, button {
     font-size: 1.1rem;
     line-height: 1.6;
 }
+
+/* Layout del Hero amb Flexbox */
+.hero-content {
+    display: flex;
+    align-items: center;        /* Centra verticalment el text i la imatge */
+    justify-content: space-between; /* Deixa espai entre el text i la imatge */
+    gap: 2rem;                 /* Espai de separació entre columnes */
+    padding: 3rem 0;
+}
+
+/* Amplada de la columna de text */
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Amplada i control de la imatge */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;       /* Opcional: vores arrodonides estil dolç */
+}
+
+/* Adaptació per a pantalles petites (mòbils) */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column; /* Posa la imatge a sota del text en mòbils */
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+}
