@@ -1,16 +1,24 @@
 /* styles.css */
 /* ===== 1. TIPOGRAFIES I BASES ===== */
-/* Títols amb Titan One */
-h1, h2, h3 {
-    font-family: 'Titan One', cursive;
-    letter-spacing: 0.03em;
-    color: #e63946; /* Un color càlid o cridaner com el vermell/taronja */
+/* Cos */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf5; /* Un fondo cálido para dulces/postres */
+    color: #2b2d42;
 }
 
-/* Text de paràgrafs ben llegible */
-p, span, li {
+/* Títols amb Titan One */
+h1, h2, h3 {
+    font-family: 'Titan One', cursive, sans-serif;
+    letter-spacing: 0.03em;
+    color: #e63946;
+}
+
+/* Text i inputs */
+p, span, li, input, button {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #2b2d42;
 }
