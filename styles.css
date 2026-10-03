@@ -12,8 +12,17 @@ body {
 /* Títols amb Titan One */
 h1, h2, h3 {
     font-family: 'Fredoka', cursive, sans-serif;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03rem;
     color: #e63946;
+}
+
+/* Estil específic per al títol principal de la Hero Section */
+.hero h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 3rem; /* Mida gran i clara */
+    color: #d90429;
+    text-shadow: 2px 2px 0px #ffccd5; /* Ombra suau estil carmel que el fa destacar */
 }
 
 /* Text i inputs */
