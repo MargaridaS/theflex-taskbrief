@@ -16,6 +16,14 @@ h1, h2, h3 {
     color: #e63946;
 }
 
+/* Contenidor centralitzat amb marges laterals */
+.container {
+    width: 90%;             /* Ocupa el 90% de l'amplada de la pantalla */
+    max-width: 1200px;      /* Amplada màxima perquè no s'estiri massa en pantalles grans */
+    margin: 0 auto;         /* Centra el contingut horitzontalment */
+    padding: 0 1rem;        /* Marge intern de seguretat a cada costat */
+}
+
 /* Estilo específico para el título principal de la Hero Section */
 .hero h1 {
     font-family: 'Fredoka', sans-serif;
