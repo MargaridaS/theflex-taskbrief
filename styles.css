@@ -19,7 +19,7 @@ h1, h2, h3 {
 /* Contenidor centralitzat amb marges laterals */
 .container {
     width: 90%;             /* Ocupa el 90% de l'amplada de la pantalla */
-    max-width: 1200px;      /* Amplada màxima perquè no s'estiri massa en pantalles grans */
+    max-width: 90%;      /* Amplada màxima perquè no s'estiri massa en pantalles grans */
     margin: 0 auto;         /* Centra el contingut horitzontalment */
     padding: 0 1rem;        /* Marge intern de seguretat a cada costat */
 }
