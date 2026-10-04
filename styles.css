@@ -5,49 +5,55 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /*#fffaf5; /* Un fondo cálido para dulces/postres */
-    color: #ffffff; /*#2b2d42;*/
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff;            /* Texto base blanco */
 }
 
-/* Títols amb Titan One */
+/* Títulos generales */
 h1, h2, h3 {
     font-family: 'Fredoka', cursive, sans-serif;
     letter-spacing: 0.03rem;
     color: #e63946;
 }
 
-/* Estil específic per al títol principal de la Hero Section */
+/* Estilo específico para el título principal de la Hero Section */
 .hero h1 {
     font-family: 'Fredoka', sans-serif;
     font-weight: 700;
-    font-size: 3rem; /* Mida gran i clara */
+    font-size: 3rem;
     color: #d90429;
-    text-shadow: 2px 2px 0px #ffccd5; /* Ombra suau estil carmel que el fa destacar */
+    text-shadow: 2px 2px 0px #ffccd5;
 }
 
-/* Text i inputs */
-p, span, li, input, button {
+/* Forzar letras 'Open Sans' en color blanco */
+p, span, li, a, input, button {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
+    color: #ffffff; /* Color blanco para todo el texto Open Sans */
 }
 
-/* Layout del Hero amb Flexbox */
+/* Enlaces sin subrayado por defecto */
+a {
+    text-decoration: none;
+}
+
+/* Layout del Hero con Flexbox */
 .hero-content {
     display: flex;
-    align-items: center;        /* Centra verticalment el text i la imatge */
-    justify-content: space-between; /* Deixa espai entre el text i la imatge */
-    gap: 2rem;                 /* Espai de separació entre columnes */
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
     padding: 3rem 0;
 }
 
-/* Amplada de la columna de text */
+/* Ancho de la columna de texto */
 .hero-text {
     flex: 1;
     max-width: 50%;
 }
 
-/* Amplada i control de la imatge */
+/* Ancho y control de la imagen */
 .hero-image {
     flex: 1;
     display: flex;
@@ -57,13 +63,13 @@ p, span, li, input, button {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 20px;       /* Opcional: vores arrodonides estil dolç */
+    border-radius: 20px;
 }
 
-/* Adaptació per a pantalles petites (mòbils) */
+/* Adaptación para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
     .hero-content {
-        flex-direction: column; /* Posa la imatge a sota del text en mòbils */
+        flex-direction: column;
         text-align: center;
     }
 
