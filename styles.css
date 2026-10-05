@@ -185,6 +185,15 @@ a {
     text-align: left;
 }
 
+/* Espai entre línies */
+.benefits-text p{
+    line-height: 30px;
+}
+
+.benefits-text h2 {
+  margin-bottom: 35px;
+}
+
 /* Ancho y control de la imagen */
 .benefits-image {
     flex: 1;
