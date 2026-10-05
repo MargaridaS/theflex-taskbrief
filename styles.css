@@ -163,7 +163,7 @@ a {
 
 /***** 2 - BENEFITS *****/
 .benefits {
-  background-color: #000000;
+  background-color: #FFFFFF;
   color: #f5f0e8;
   min-height: 80vh;
   margin-bottom: 2px;
@@ -188,6 +188,7 @@ a {
 /* Espai entre línies */
 .benefits-text p{
     line-height: 30px;
+    color: #000000;
 }
 
 .benefits-text h2 {
