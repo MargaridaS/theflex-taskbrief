@@ -330,6 +330,22 @@ a {
   color: #000000;
 }
 
+.cta-button {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #880904;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #dbba76;
+}  
+
 
 /***** 6 - FOOTER *****/
 footer {
