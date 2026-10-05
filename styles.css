@@ -284,16 +284,8 @@ a {
 
 /* Cada element de la llista (cada foto) */
 .testimonials-carrusel li {
-  flex: 0 0 100%;              /* Cada foto ocupa el 100% de l'ample */
-  width: 100%;
-  scroll-snap-align: start;
-}
-
-/* Estil per a les imatges de dintre */
-.testimonials-carrusel picture img {
-  width: 100%;
-  height: auto;
-  display: block;
+  min-width: 100%;
+  flex: 0 0 100%;
 }
 
 .testimonials-card {
