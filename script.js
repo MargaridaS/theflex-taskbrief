@@ -1,14 +1,12 @@
 /* ===== CARRUSEL ===== */
 // Aquesta funció s'executa quan tota la web s'ha carregat correctament
 document.addEventListener('DOMContentLoaded', () => {
-
-  iniciarCarruselHero();
-
+  iniciarCarruselTestimonials();
 });
 
 // Funció que controla el moviment automàtic del carrusel
-function iniciarCarruselHero() {
-  const carrusel = document.querySelector('.carrusel');
+function iniciarCarruselTestimonials() {
+  const carrusel = document.querySelector('.testimonials-carrusel');
 
   // Si no troba cap carrusel a la pàgina actual, s'atura per evitar errors
   if (!carrusel) return;
