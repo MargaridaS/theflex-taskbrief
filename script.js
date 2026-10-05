@@ -11,10 +11,10 @@ function iniciarCarruselTestimonials() {
   // Si no troba cap carrusel a la pàgina actual, s'atura per evitar errors
   if (!carrusel) return;
 
-  // Canvia de foto automàticament cada 8 segons (8000 ms)
+  // Canvia de foto automàticament cada 5 segons (5000 ms)
   setInterval(() => {
     // Comprova si hem arribat a l'última foto
-    const esAlFinal = carrusel.scrollLeft + carrusel.clientWidth >= carrusel.scrollWidth - 8;
+    const esAlFinal = carrusel.scrollLeft + carrusel.clientWidth >= carrusel.scrollWidth - 10;
 
     if (esAlFinal) {
       // Torna a la primera foto
@@ -23,5 +23,5 @@ function iniciarCarruselTestimonials() {
       // Passa a la següent foto
       carrusel.scrollBy({ left: carrusel.clientWidth, behavior: 'smooth' });
     }
-  }, 6000);
+  }, 5000);
 }
