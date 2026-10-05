@@ -265,15 +265,17 @@ a {
 
 .testimonials-carrusel {
   display: flex;
-  overflow-x: auto;             /* Permet el desplaçament horitzontal */
-  scroll-snap-type: x mandatory; /* Les fotos s'imanten d'una en una */
-  scroll-behavior: smooth;
-  transition: all 1.2s ease-in-out;
-  scrollbar-width: none; /*Firefox*/
+  gap: 20px;
   padding: 0;
-  margin: 0;
-  list-style: none;             /* Treu els punts de llista */
-  width: 100%;
+  margin: 30px 0 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+  /* Amaga la barra de scroll */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .testimonials-carrusel::-webkit-scrollbar {
