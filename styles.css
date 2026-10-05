@@ -320,23 +320,43 @@ a {
 
 /***** 5 - CALL TO ACTION *****/
 /* Estilo */
-.contact {
-  background-color: #000000;
-  color: #f5f0e8;
-  min-height: 80vh;
-  margin-bottom: 2px;
-  padding-bottom: 2px;
+.cta-section {
+  background-color: #880904;
+  padding: 80px 20px;
+  text-align: center;
 }
-  
-/* Layout */
-.contact-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 30px;
+.cta-section h2 {
+  margin: 0 0 15px;
+  color: #880904;
+}
+
+.cta-section p {
+  margin: 0 0 30px;
+  color: #000000;
+}
+
+.lead-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.lead-form input {
+  width: 280px;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-cta {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #880904;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 /***** 6 - FOOTER *****/
