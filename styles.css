@@ -321,13 +321,8 @@ a {
 /***** 5 - CALL TO ACTION *****/
 /* Estilo */
 .cta-section {
-  background-color: #880904;
   padding: 80px 20px;
   text-align: center;
-}
-.cta-section h2 {
-  margin: 0 0 15px;
-  color: #880904;
 }
 
 .cta-section p {
