@@ -197,8 +197,8 @@ a {
 
 .benefits-video {
   display: flex;
-  justify-content: right; 
-  align-items: right;     
+  justify-content: left; 
+  align-items: left;     
   width: 100%;           
 }
 
