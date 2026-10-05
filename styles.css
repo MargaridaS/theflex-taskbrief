@@ -197,10 +197,10 @@ a {
 }
 
 .benefits-video {
+  flex: 1;
   display: flex;
-  justify-content: left; 
-  align-items: left;     
-  width: 100%;           
+  justify-content: flex-end; 
+  align-items: center;            
 }
 
 .benefits-video-custom {
