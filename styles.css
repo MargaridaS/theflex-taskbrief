@@ -13,7 +13,7 @@ body {
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', cursive, sans-serif;
     letter-spacing: 0.03rem;
-    color: #e63946;
+    color: #880904;
 }
 
 /* Contenidor centralitzat amb marges laterals */
@@ -29,16 +29,15 @@ h1, h2, h3 {
     font-family: 'Cormorant Garamond', sans-serif;
     font-weight: 700;
     font-size: 3rem;
-    color: #d90429;
-    text-shadow: 2px 2px 0px #ffccd5;
+    color: #880904;
+    text-shadow: 2px 2px 0px #dbba76;
 }
 
-/* Forzar letras 'Open Sans' en color blanco */
 p, span, li, a, input, button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #ffffff; /* Color blanco para todo el texto Open Sans */
+    color: #ffffff; 
 }
 
 /* Enlaces sin subrayado por defecto */
