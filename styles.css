@@ -23,6 +23,8 @@
 }
 
 .navbar-logo {
+    height: 40px;  /* Define la altura */
+    width: auto;  /* Mantiene la proporción para que no se deforme */
     display: flex;
     align-items: center;
     gap: 20px;
