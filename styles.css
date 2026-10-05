@@ -248,6 +248,8 @@ a {
 
 /* Columna del contenido (Texto) */
 .testimonials-content {
+    flex: 1;
+    min-width: 0;
     overflow: hidden;
 }
 
@@ -284,8 +286,9 @@ a {
 
 /* Cada element de la llista (cada foto) */
 .testimonials-carrusel li {
-  min-width: 100%;
   flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
 }
 
 .testimonials-card {
