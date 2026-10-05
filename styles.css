@@ -248,8 +248,7 @@ a {
 
 /* Columna del contenido (Texto) */
 .testimonials-content {
-    flex: 1.2;                /* Le damos un poco más de espacio al texto */
-    text-align: left;
+    overflow: hidden;
 }
 
 .testimonials-content h2 {
@@ -273,6 +272,13 @@ a {
   overflow-x: auto;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  /* Amagar la barra de scroll */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.testimonials-carrusel::-webkit-scrollbar {
+  display: none;
 }
 
 .testimonials-carrusel li {
