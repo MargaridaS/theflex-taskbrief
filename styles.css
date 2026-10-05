@@ -102,7 +102,7 @@ a {
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 30px;
+    padding: 50px 10px;
 }
 
 .hero h1 {
@@ -121,15 +121,15 @@ a {
 
 /* Ancho y control de la imagen */
 .hero-image {
-    flex: 1;
+    flex: 1.2;
     display: flex;
     justify-content: center;
 }
 
 .hero-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .hero-video {
