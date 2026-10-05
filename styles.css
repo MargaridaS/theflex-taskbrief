@@ -208,6 +208,24 @@ a {
   display: block;
 }
 
+/***** 4 - TESTIMONIALS *****/
+.testimonials-card {
+    flex: 1;
+    text-align: right;
+}
+
+.testimonials-image {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.testimonials-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
   
 /***** 6 - FOOTER *****/
 footer {
