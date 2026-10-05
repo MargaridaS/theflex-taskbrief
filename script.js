@@ -7,21 +7,17 @@ document.addEventListener('DOMContentLoaded', () => {
 // Funció que controla el moviment automàtic del carrusel
 function iniciarCarruselTestimonials() {
   const carrusel = document.querySelector('.testimonials-carrusel');
+  const cards = carousel.querySelectorAll("li");
 
-  // Si no troba cap carrusel a la pàgina actual, s'atura per evitar errors
-  if (!carrusel) return;
+  set currentCard = 0;
 
-  // Canvia de foto automàticament cada 5 segons (5000 ms)
   setInterval(() => {
-    // Comprova si hem arribat a l'última foto
-    const esAlFinal = carrusel.scrollLeft + carrusel.clientWidth >= carrusel.scrollWidth - 10;
+    currentCard = (currentCard + 1) % cards.length;
 
-    if (esAlFinal) {
-      // Torna a la primera foto
-      carrusel.scrollTo({ left: 0, behavior: 'smooth' });
-    } else {
-      // Passa a la següent foto
-      carrusel.scrollBy({ left: carrusel.clientWidth, behavior: 'smooth' });
-    }
-  }, 5000);
+    cards[currentCard].scrollIntoView({
+      behavior: "smooth",
+      inline: "start",
+      block: "nearest"
+    });
+  }, 4000); /* Cada 4 segons */
 }
