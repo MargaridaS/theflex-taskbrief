@@ -121,7 +121,7 @@ a {
 
 /* Ancho y control de la imagen */
 .hero-image {
-    flex: 1.2;
+    flex: 1;
     display: flex;
     justify-content: center;
 }
@@ -129,7 +129,7 @@ a {
 .hero-image img {
     width: 100%;
     height: auto;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .hero-video {
