@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // Funció que controla el moviment automàtic del carrusel
 function iniciarCarruselTestimonials() {
   const carrusel = document.querySelector('.testimonials-carrusel');
-  const cards = carousel.querySelectorAll("li");
+  const cards = carrusel.querySelectorAll("li");
 
-  set currentCard = 0;
+  let currentCard = 0;
 
   setInterval(() => {
     currentCard = (currentCard + 1) % cards.length;
