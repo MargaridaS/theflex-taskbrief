@@ -69,6 +69,7 @@ a {
     padding: 0 1rem;        /* Marge intern de seguretat a cada costat */
 }
 
+/* 1 - HERO */
 /* Estilo específico para el título principal de la Hero Section */
 .hero {
   background-color: #000000;
@@ -84,7 +85,7 @@ a {
     text-shadow: 1px 1px 0px #dbba76;
 }
 
-/* Layout del Hero con Flexbox */
+/* Layout del Hero */
 .hero-content {
     display: flex;
     align-items: center;
@@ -143,6 +144,16 @@ a {
     background-color: #dbba76;
 }  
 
+/* 2 - BENEFITS */
+.benefits-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 40px;
+}
 
 /* Ancho de la columna de texto */
 .benefits-text {
