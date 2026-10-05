@@ -23,8 +23,6 @@
 }
 
 .navbar-logo {
-    height: 40px;  /* Define la altura */
-    width: auto;  /* Mantiene la proporción para que no se deforme */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -33,8 +31,8 @@
 }
 
 .navbar-logo img {
-    height: auto;
-    width: auto;
+    height: 40px;  /* Define la altura */
+    width: auto;  /* Mantiene la proporción para que no se deforme */
     display: block;
     transition: transform 0.3s ease;
 }
