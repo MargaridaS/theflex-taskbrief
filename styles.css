@@ -2,7 +2,7 @@
 /* ===== 1. TIPOGRAFIES I BASES ===== */
 /* Cos */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000000; /* Fondo negro */
@@ -11,7 +11,7 @@ body {
 
 /* Títulos generales */
 h1, h2, h3 {
-    font-family: 'Poppins', cursive, sans-serif;
+    font-family: 'Cormorant Garamond', cursive, sans-serif;
     letter-spacing: 0.03rem;
     color: #e63946;
 }
@@ -26,7 +26,7 @@ h1, h2, h3 {
 
 /* Estilo específico para el título principal de la Hero Section */
 .hero h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-weight: 700;
     font-size: 3rem;
     color: #d90429;
@@ -35,7 +35,7 @@ h1, h2, h3 {
 
 /* Forzar letras 'Open Sans' en color blanco */
 p, span, li, a, input, button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
     color: #ffffff; /* Color blanco para todo el texto Open Sans */
