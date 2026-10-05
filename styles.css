@@ -129,7 +129,7 @@ a {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .hero-video {
@@ -166,8 +166,8 @@ a {
   background-color: #000000;
   color: #f5f0e8;
   min-height: 80vh;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
 }
 
 .benefits-content {
@@ -182,7 +182,7 @@ a {
 
 /* Ancho de la columna de texto */
 .benefits-text {
-    flex: 1.2;
+    flex: 1;
     text-align: left;
 }
 
@@ -191,7 +191,7 @@ a {
     flex: 1;
     display: flex;
     justify-content: flex-start; /* Alinea el contenido hacia la izquierda del todo */
-    align-items: center;  
+    align-items: left;  
 }
 
 .benefits-image img {
@@ -203,7 +203,7 @@ a {
 .benefits-video {
   flex: 1;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-start; 
   align-items: left;            
 }
 
