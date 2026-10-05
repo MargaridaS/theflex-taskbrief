@@ -90,6 +90,8 @@ a {
   background-color: #000000;
   color: #f5f0e8;
   min-height: 80vh;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
   
 .hero h1 {
@@ -164,6 +166,8 @@ a {
   background-color: #000000;
   color: #f5f0e8;
   min-height: 80vh;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .benefits-content {
@@ -215,6 +219,8 @@ a {
   background-color: #000000;
   color: #f5f0e8;
   padding: 100px 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /* El nuevo contenedor que envuelve las dos columnas */
