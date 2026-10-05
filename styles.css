@@ -96,6 +96,21 @@ a {
     border-radius: 20px;
 }
 
+.hero-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #880904;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #dbba76;
+}  
+
 /* ===== Peu de pàgina ===== */
 footer {
     background-color: #880904;  /* color de fons del footer */
