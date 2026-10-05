@@ -34,13 +34,16 @@ body {
 
 /* Títulos generales */
 h1, h2, {
-    font-family: 'Montserrat', cursive, sans-serif;
+    margin: 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     letter-spacing: 0.03rem;
     color: #880904;
   
 h3 {
-    font-family: 'Montserrat', cursive, sans-serif;
+    margin: 0 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     letter-spacing: 0.03rem;
     color: #880904;
 }
@@ -66,6 +69,12 @@ a {
 }
 
 /* Estilo específico para el título principal de la Hero Section */
+.hero {
+  background-color: #000000;
+  color: #f5f0e8;
+  min-height: 80vh;
+}
+  
 .hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -79,14 +88,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
-    padding: 3rem 0;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 40px;
 }
 
 /* Ancho de la columna de texto */
 .hero-text {
     flex: 1;
-    max-width: 50%;
+    text-align: left;
 }
 
 /* Ancho y control de la imagen */
@@ -97,9 +108,9 @@ a {
 }
 
 .hero-image img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .hero-button {
