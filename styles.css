@@ -117,6 +117,27 @@ a {
     background-color: #dbba76;
 }  
 
+
+/* Ancho de la columna de texto */
+.benefits-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Ancho y control de la imagen */
+.benefits-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.benefits-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+  
 /* ===== Peu de pàgina ===== */
 footer {
     background-color: #880904;  /* color de fons del footer */
