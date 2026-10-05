@@ -259,6 +259,30 @@ a {
     border-radius: 15px;
     border-left: 4px solid #880904; /* Detalle rojo a juego con tu navbar */
 }
+
+.testimonials-carrusel {
+  display: flex;
+  overflow-x: auto;             /* Permet el desplaçament horitzontal */
+  scroll-snap-type: x mandatory; /* Les fotos s'imanten d'una en una */
+  scroll-behavior: smooth;
+  transition: all 1.2s ease-in-out;
+  scrollbar-width: none; /*Firefox*/
+  padding: 0;
+  margin: 0;
+  list-style: none;             /* Treu els punts de llista */
+  width: 100%;
+}
+
+.testimonials-carrusel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+/* Cada element de la llista (cada foto) */
+.testimonials-carrusel li {
+  flex: 0 0 100%;              /* Cada foto ocupa el 100% de l'ample */
+  width: 100%;
+  scroll-snap-align: start;
+}
   
 /***** 6 - FOOTER *****/
 footer {
