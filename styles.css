@@ -169,7 +169,7 @@ a {
 .benefits-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -178,7 +178,7 @@ a {
 
 /* Ancho de la columna de texto */
 .benefits-text {
-    flex: 1.5;
+    flex: 1.2;
     text-align: left;
 }
 
