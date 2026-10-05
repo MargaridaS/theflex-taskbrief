@@ -1,5 +1,21 @@
 /* styles.css */
 /* ===== 1. TIPOGRAFIES I BASES ===== */
+/* Nav bar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #880904;
+  color: #ffffff;
+  z-index: 1000;
+}
+
 /* Cos */
 body {
     font-family: 'Montserrat', sans-serif;
