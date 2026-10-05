@@ -27,10 +27,11 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 5px;
+    background-color: transparent;
 }
 
 .navbar-logo img {
-    height: 50px;
+    height: auto;
     width: auto;
     display: block;
     transition: transform 0.3s ease;
