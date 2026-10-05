@@ -114,6 +114,19 @@ a {
     border-radius: 10px;
 }
 
+.hero-video {
+  display: flex;
+  justify-content: right; 
+  align-items: right;     
+  width: 100%;           
+}
+
+.hero-video-custom {
+  width: 50%;     
+  height: auto;       /* Això manté la proporció original del vídeo perquè no es deformi */
+  display: block;
+}
+
 .hero-button {
     display: inline-block;
     padding: 16px 32px;
