@@ -94,14 +94,6 @@ a {
   padding-bottom: 2px;
 }
   
-.hero h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
-    color: #880904;
-    text-shadow: 1px 1px 0px #dbba76;
-}
-
 /* Layout */
 .hero-content {
     display: flex;
@@ -111,6 +103,14 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 80px 30px;
+}
+
+.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #880904;
+    text-shadow: 1px 1px 0px #dbba76;
 }
 
 /* Ancho de la columna de texto */
@@ -318,6 +318,26 @@ a {
   color: #dbba76;
 }
 
+/***** 5 - CALL TO ACTION *****/
+/* Estilo */
+.contact {
+  background-color: #000000;
+  color: #f5f0e8;
+  min-height: 80vh;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+  
+/* Layout */
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
 
 /***** 6 - FOOTER *****/
 footer {
