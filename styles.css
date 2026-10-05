@@ -214,24 +214,20 @@ a {
 .testimonials {
   background-color: #000000;
   color: #f5f0e8;
-  min-height: 80vh;
+  padding: 100px 40px;
 }
 
-.testimonials-content {
+/* El nuevo contenedor que envuelve las dos columnas */
+.testimonials-wrapper {
     display: flex;
-    align-items: center;
+    align-items: center;      /* Centra verticalmente la imagen y el texto */
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px;                /* Espacio de separación entre la imagen y el texto */
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 40px;
 }
 
-.testimonials-text {
-    flex: 1;
-    text-align: right;
-}
-
+/* Columna de la imagen */
 .testimonials-image {
     flex: 1;
     display: flex;
@@ -239,9 +235,29 @@ a {
 }
 
 .testimonials-image img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 450px;         /* Limita el tamaño máximo de la foto de la mujer */
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;      /* Bordes redondeados elegantes */
+    display: block;
+}
+
+/* Columna del contenido (Texto) */
+.testimonials-content {
+    flex: 1.2;                /* Le damos un poco más de espacio al texto */
+    text-align: left;
+}
+
+.testimonials-content h2 {
+    margin-bottom: 30px;      /* Separación entre el título y el testimonio */
+}
+
+/* Estilo de la tarjeta por si quieres estilizarla */
+.testimonials-card {
+    background: #111111;      /* Fondo ligeramente gris/oscuro para que resalte */
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 4px solid #880904; /* Detalle rojo a juego con tu navbar */
 }
   
 /***** 6 - FOOTER *****/
