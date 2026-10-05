@@ -11,7 +11,7 @@ body {
 
 /* Títulos generales */
 h1, h2, h3 {
-    font-family: 'Cormorant Garamond', cursive, sans-serif;
+    font-family: 'Playfair Display', cursive, sans-serif;
     letter-spacing: 0.03rem;
     color: #880904;
 }
@@ -26,11 +26,11 @@ h1, h2, h3 {
 
 /* Estilo específico para el título principal de la Hero Section */
 .hero h1 {
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 3rem;
     color: #880904;
-    text-shadow: 2px 2px 0px #dbba76;
+    text-shadow: 1px 1px 0px #dbba76;
 }
 
 p, span, li, a, input, button {
