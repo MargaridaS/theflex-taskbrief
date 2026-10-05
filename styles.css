@@ -97,6 +97,7 @@ a {
 }
 
 .hero-button {
+    display: inline-block;
     padding: 16px 32px;
     font-size: 16px;
     border: none;
