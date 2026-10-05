@@ -23,6 +23,7 @@ body {
     padding: 0;
     background-color: #000000; /* Fondo negro */
     color: #ffffff;            /* Texto base blanco */
+    padding-top: 90px; /*distància respecte el navbar */
 }
 
 /* Títulos generales */
