@@ -211,7 +211,23 @@ a {
 }
 
 /***** 4 - TESTIMONIALS *****/
-.testimonials-card {
+.testimonials {
+  background-color: #000000;
+  color: #f5f0e8;
+  min-height: 80vh;
+}
+
+.testimonials-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 40px;
+}
+
+.testimonials-text {
     flex: 1;
     text-align: right;
 }
@@ -219,15 +235,14 @@ a {
 .testimonials-image {
     flex: 1;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .testimonials-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-
   
 /***** 6 - FOOTER *****/
 footer {
