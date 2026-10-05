@@ -204,7 +204,7 @@ a {
   flex: 1;
   display: flex;
   justify-content: flex-end; 
-  align-items: center;            
+  align-items: left;            
 }
 
 .benefits-video-custom {
