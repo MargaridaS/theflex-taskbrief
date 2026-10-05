@@ -104,6 +104,7 @@ footer {
     padding: 20px;               /* espai dins del footer */
     margin-top: 50px;            /* separació amb el contingut superior */
     font-size: 14px;             /* mida lleugera del text */
+    list-style: none;
 }
 
 /* Adaptación para pantallas pequeñas (móviles) */
