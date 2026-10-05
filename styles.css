@@ -227,10 +227,8 @@ a {
 .testimonials-wrapper {
     display: flex;
     align-items: center;      /* Centra verticalmente la imagen y el texto */
-    justify-content: space-between;
     gap: 60px;                /* Espacio de separación entre la imagen y el texto */
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 80px 40px;
 }
 
 /* Columna de la imagen */
@@ -268,28 +266,39 @@ a {
 
 .testimonials-carrusel {
   display: flex;
-  overflow-x: auto;             /* Permet el desplaçament horitzontal */
-  scroll-snap-type: x mandatory; /* Les fotos s'imanten d'una en una */
-  scroll-behavior: smooth;
-  transition: all 1.2s ease-in-out;
-  scrollbar-width: none; /*Firefox*/
+  gap: 20px;
   padding: 0;
-  margin: 0;
-  list-style: none;             /* Treu els punts de llista */
-  width: 100%;
+  margin: 30px 0 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 
-.testimonials-carrusel::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
-}
-
-/* Cada element de la llista (cada foto) */
 .testimonials-carrusel li {
-  flex: 0 0 100%;              /* Cada foto ocupa el 100% de l'ample */
-  width: 100%;
+  min-width: 100%;
   scroll-snap-align: start;
 }
-  
+
+.testimonials-card {
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #880904;
+  color: #ffffff;
+}
+
+.testimonials-card p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.testimonials-card span {
+  font-size: 0.9rem;
+  color: #dbba76;
+}
+
+
 /***** 6 - FOOTER *****/
 footer {
     background-color: #880904;  /* color de fons del footer */
