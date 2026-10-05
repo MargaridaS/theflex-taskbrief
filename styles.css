@@ -194,6 +194,10 @@ a {
   margin-bottom: 35px;
 }
 
+.benefits-text h3 {
+  margin-bottom: 35px;
+}
+
 /* Ancho y control de la imagen */
 .benefits-image {
     flex: 1;
