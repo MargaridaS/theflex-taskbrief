@@ -447,13 +447,27 @@ footer {
         flex: none;
     }
 
-    .hero-text {
+    .hero h1 {
+        order: 1;
+        font-size: 2.2rem;
+    }
+
+    .hero h2 {
+        order: 2;
+        font-size: 2.2rem;
+    }
+    
+    .hero-image {
+        order: 3;
         text-align: center;
     }
 
-    .hero h1 {
-        font-size: 2.2rem;
+    .hero-text {
+        order: 4;
+        text-align: center;
     }
+
+
 
     .hero-image img,
     .benefits-image img,
@@ -472,7 +486,7 @@ footer {
     }
 
     .benefits-text {
-         order: 2;
+        order: 2;
         text-align: center;
     }
 
