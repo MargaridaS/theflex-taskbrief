@@ -482,19 +482,7 @@ footer {
         gap: 35px;
         box-sizing: border-box;
     }
-
-    .hero-text,
-    .hero-video,
-    .benefits-text,
-    .benefits-image,
-    .benefits-video {
-        width: 100%;
-        max-width: 100%;
-        flex: none;
-        height: auto;
-        display: block;
-    }
-
+  
     .hero-image {
       order: 1;
       text-align: center;
@@ -528,7 +516,7 @@ footer {
         order: 4;
         text-align: center;
     }
-
+  
     .benefits-video {
         order: 1;
         display: flex;
@@ -550,6 +538,11 @@ footer {
     .benefits-text {
         order: 2;
         text-align: center;
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+        height: auto;
+        display: block;
     }
 
     .testimonials-container {
