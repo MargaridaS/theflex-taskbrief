@@ -16,6 +16,11 @@
   z-index: 1000;
 }
 
+/* Per defecte: versió d'escriptori */
+.navbar ul.navbar-menu-mobile {
+    display: none;
+}
+
 .navbar-menu {
   list-style: none;
   margin: 0;
@@ -426,6 +431,11 @@ footer {
 
     .navbar-discount,
     .navbar-menu {
+        display: none;
+    }
+  
+   /* Amaguem el menú llarg */
+    .navbar ul.navbar-menu {
         display: none;
     }
 
