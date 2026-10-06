@@ -406,6 +406,11 @@ footer {
     .navbar-logo {
         font-size: 1rem;
     }
+
+    .navbar-discount {
+      font-size: 0.8rem;
+      line-height: 1.2;
+    }
   
     navbar ul {
         display: flex;
@@ -421,11 +426,8 @@ footer {
 
     navbar li,
     navbar a {
+        font-size: 0.8rem;
         white-space: nowrap;
-    }
-
-    navbar a {
-        font-size: 0.75rem;
     }
   
     .hero-content,
