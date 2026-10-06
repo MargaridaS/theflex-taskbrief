@@ -561,7 +561,7 @@ footer {
     .testimonials-card {
         order: 1;
         width: 100%;
-        max-width: 180px;
+        max-width: 100px;
         min-height: auto;
         height: auto;
     }
