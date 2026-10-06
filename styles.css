@@ -398,7 +398,7 @@ footer {
 
 /***** 7 - MOBILE PHONE *****/
 @media (max-width: 768px) {
-    navbar {
+    .navbar {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -418,7 +418,7 @@ footer {
       line-height: 1.2;
     }
   
-    navbar ul {
+    .navbar ul {
         line-height: 1.2;
         display: flex;
         justify-content: center;
@@ -431,8 +431,8 @@ footer {
         overflow-x: auto;
     }
 
-    navbar li,
-    navbar a {
+    .navbar li,
+    .navbar a {
         font-size: 0.8rem;
         white-space: nowrap;
     }
@@ -524,17 +524,17 @@ footer {
         height: auto;
     }
 
-    cta-form {
+    .cta-form {
         width: 100%;
         max-width: 500px;
         margin: 0 auto;
         padding: 0 20px;
     }
 
-    cta-form input,
-    cta-form textarea,
-    cta-form select,
-    cta-form button {
+    .cta-form input,
+    .cta-form textarea,
+    .cta-form select,
+    .cta-form button {
         width: 100%;
         max-width: 100%;
     }
