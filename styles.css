@@ -171,13 +171,13 @@ a {
 }
 
 .benefits-content {
-  background-color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin: 0 auto;
-  padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 10px;
 }
 
 /* Ancho de la columna de texto */
