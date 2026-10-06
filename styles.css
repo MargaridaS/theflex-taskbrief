@@ -336,6 +336,17 @@ a {
   color: #000000;
 }
 
+/* Estructura per alinear horitzontalment */
+.cta-form {
+  display: flex;
+  justify-content: center; /* Centra el formulari a la secció */
+  align-items: center;     /* Centra verticalment input i botó */
+  gap: 16px;               /* Controla la separació entre l'input i el botó */
+  max-width: 500px;        /* Amplada màxima del formulari */
+  margin: 0 auto;          /* Centra el contenidor del formulari */
+}
+
+/* Estils per a l'input */
 .cta-form input {
     color: #000000;           /* Text negre per poder llegir el que escrius */
     background-color: #ffffff; /* Fons blanc */
