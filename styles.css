@@ -398,6 +398,34 @@ footer {
 
 /***** 7 - MOBILE PHONE *****/
 @media (max-width: 768px) {
+    navbar {
+        width: 100%;
+        padding: 15px 10px;
+    }
+  
+    .navbar-logo {
+        font-size: 1rem;
+    }
+  
+    navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        flex-wrap: nowrap;
+    }
+
+    navbar li {
+        white-space: nowrap;
+    }
+
+    navbar a {
+        font-size: 0.75rem;
+    }
+  
     .hero-content,
     .benefits-content {
         flex-direction: column;
