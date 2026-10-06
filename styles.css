@@ -407,12 +407,19 @@ footer {
 
 /***** 7 - MOBILE PHONE *****/
 @media (max-width: 768px) {
+
+  /* Forcem que res surti de la pantalla */
+    body {
+        overflow-x: hidden;
+    }
+  
     .navbar {
         display: flex;
         align-items: center;
         justify-content: space-between; /*espai entre elements*/
         gap: 12px;
         width: 100%;
+        max-width: 100vw;       /* Evita que superi l'ample de la pantalla */
         padding: 12px 20px; /* Un margin/padding intern una mica més ampli per desenganxar-lo de la vora */
         box-sizing: border-box; /* Assegura que el padding no augmenti l'amplada total del 100% */
     }
