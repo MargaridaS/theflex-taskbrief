@@ -46,7 +46,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Cos */
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -63,7 +62,7 @@ video {
   max-width: 100%;
 }
 
-/* Títulos generales */
+/* Titles */
 h1, h2 {
   margin: 0 0 10px;
   font-family: 'Montserrat', sans-serif;
@@ -101,12 +100,12 @@ a {
 }
 
 /***** 1 - HERO *****/
-/* Estilo específico para el título principal de la Hero Section */
+/* Style */
 .hero {
   background-color: #000000;
   color: #f5f0e8;
   display: flex;
-  align-items: center; /*centrar verticalment*/
+  align-items: center; 
   min-height: 80vh;
   margin-bottom: 2px;
   padding-bottom: 2px;
@@ -132,13 +131,11 @@ a {
     margin-bottom: 35px;
 }
 
-/* Ancho de la columna de texto */
 .hero-text {
     flex: 1;
     text-align: left;
 }
 
-/* Ancho y control de la imagen */
 .hero-image {
     flex: 1 1 0;
     min-width: 0;
@@ -247,19 +244,18 @@ a {
 .testimonials {
   background-color: #000000;
   color: #f5f0e8;
-  marging: 0 auto;
+  margin: 0 auto;
   padding: 40px 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;  
 }
 
-/* El nuevo contenedor que envuelve las dos columnas */
 .testimonials-content {
     display: flex;
-    align-items: center;      /* Centra verticalmente la imagen y el texto */
-    gap: 30px;                /* Espacio de separación entre la imagen y el texto */
+    flex-direction: row; /* en fila */
+    align-items: center;      /* Centra verticalment */
+    gap: 30px;                /* Espai de separació entre la imatge i el text */
     display: flex;
-    flex-direction: column;
     width: 100%;
     padding: 0;
     box-sizing: border-box;
