@@ -474,13 +474,15 @@ footer {
     }
 
     .hero-text,
-    .hero-image,
+    .hero-video,
     .benefits-text,
     .benefits-image,
     .benefits-video {
         width: 100%;
         max-width: 100%;
         flex: none;
+        height: auto;
+        display: block;
     }
 
     .hero h1 {
