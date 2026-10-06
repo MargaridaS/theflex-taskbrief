@@ -101,7 +101,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px; /*separació imatge-text*/
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 10px;
@@ -264,7 +264,8 @@ a {
 .testimonials-image {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* centrat horitzontal */
+    align-items: center;    /* centrat vertical */
 }
 
 .testimonials-image img {
