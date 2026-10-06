@@ -294,6 +294,8 @@ a {
     padding: 30px;
     border-radius: 15px;
     border-left: 4px solid #dbba76; /* Detall card */
+    max-width: 420px;   /* Estret card */
+    margin: 0 auto;    /* Centra la targeta dins la seva columna */
 }
 
 .testimonials-card span {
@@ -590,9 +592,11 @@ footer {
     .testimonials-card {
         order: 1;
         width: 100%;
-        max-width: 120px;
+        max-width: 85% !important;
         min-height: auto;
         height: auto;
+        margin: 0 auto !important;  /* Centra la targeta horitzontalment */
+        padding: 20px;              /* Ajustem lleugerament el padding interior */
     }
   
     .testimonials-image {
