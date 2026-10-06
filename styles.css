@@ -121,17 +121,23 @@ a {
 
 /* Ancho y control de la imagen */
 .hero-image {
-    flex: 1;
+    flex: 1 1 0;
+    min-width: 0;
     display: flex;
     justify-content: center;
-    width: 100%;
+    box-sizing: border-box;
     overflow: hidden;
 }
 
 .hero-image img {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    object-fit: cover;
     border-radius: 4px;
 }
 
