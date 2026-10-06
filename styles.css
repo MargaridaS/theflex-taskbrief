@@ -589,6 +589,20 @@ footer {
         margin: 0 auto;
     }
 
+    .testimonials-text {
+        order: 1;
+        width: 100%;
+        max-width: 100%;
+        text-align: center; /* Centra el títol h2 al mòbil */
+        box-sizing: border-box;
+    }
+
+    .testimonials-text h2 {
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
     .testimonials-card {
         order: 1;
         width: 100% !important;
