@@ -343,6 +343,8 @@ a {
     border: 1px solid #ccc;
     border-radius: 8px;
     pointer-events: auto;     /* Assegura que es pugui clicar */
+    outline: none;             /* Elimina el voral per defecte del navegador */
+    transition: border-color 0.3s ease;
 }
 
 .cta-button {
