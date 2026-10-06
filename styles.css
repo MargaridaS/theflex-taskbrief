@@ -487,8 +487,12 @@ footer {
     }
 
     .hero-image {
-        order: 1;
-        text-align: center;
+      order: 1;
+      text-align: center;
+      display: block !important;
+      width: 100%;
+      max-width: 320px;
+      height: auto;
     }
   
     .hero h1 {
@@ -498,7 +502,7 @@ footer {
 
     .hero h2 {
         order: 3;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .hero-text {
