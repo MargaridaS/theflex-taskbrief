@@ -489,7 +489,8 @@ footer {
     .hero-image {
       order: 1;
       text-align: center;
-      display: block !important;
+      justify-content: center;
+      display: flex !important;
       width: 100%;
       max-width: 320px;
       height: auto;
@@ -510,13 +511,11 @@ footer {
         text-align: center;
     }
 
-    .hero-image img,
-    .benefits-image img {
-        display: block;
+    .hero-image img {
+        display: block !important;
         width: 100%;
         max-width: 400px;
         height: auto;
-        margin: 0 auto;   /* Assegura el centrat del block */
     }
 
     .benefits-video {
