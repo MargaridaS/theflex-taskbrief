@@ -124,9 +124,12 @@ a {
     flex: 1;
     display: flex;
     justify-content: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .hero-image img {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 4px;
@@ -329,6 +332,7 @@ a {
 .cta-section {
   padding: 80px 20px;
   text-align: center;
+  background-color: #FFFFFF;
 }
 
 .cta-section p {
