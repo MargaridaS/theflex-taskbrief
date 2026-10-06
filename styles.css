@@ -628,6 +628,14 @@ footer {
         max-width: 100%;
     }
 
+    .cta-email {
+      order: 1;
+    }
+
+    .cta-button {
+      order: 2;
+    }
+
     .cta-form-row {
         display: flex;
         flex-direction: column;
