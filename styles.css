@@ -135,10 +135,7 @@ a {
     max-width: 100%;
     height: auto;
     margin: 0;
-    padding: 0;
     border: 0;
-    object-fit: cover;
-    border-radius: 4px;
 }
 
 .hero-video {
