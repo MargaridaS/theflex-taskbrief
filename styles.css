@@ -289,12 +289,12 @@ a {
     margin-bottom: 30px;      /* Separación entre el título y el testimonio */
 }
 
-/* Estilo de la tarjeta por si quieres estilizarla */
+/* Estilo de la tarjeta */
 .testimonials-card {
-    background: #111111;      /* Fondo ligeramente gris/oscuro para que resalte */
+    background: #880904;      
     padding: 30px;
     border-radius: 15px;
-    border-left: 4px solid #880904; /* Detalle rojo a juego con tu navbar */
+    border-left: 4px solid #dbba76; /* Detall card */
 }
 
 .testimonials-carrusel {
