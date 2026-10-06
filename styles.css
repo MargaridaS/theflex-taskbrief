@@ -297,6 +297,10 @@ a {
     border-left: 4px solid #dbba76; /* Detall card */
 }
 
+.testimonials-card span {
+  color: #dbba76;
+}
+
 .testimonials-carrusel {
   display: flex;
   gap: 20px;
