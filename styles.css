@@ -249,13 +249,11 @@ a {
   color: #f5f0e8;
   padding: 100px 40px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
-  
-  
+  padding-bottom: 20px;  
 }
 
 /* El nuevo contenedor que envuelve las dos columnas */
-.testimonials-wrapper {
+.testimonials-content {
     display: flex;
     align-items: center;      /* Centra verticalmente la imagen y el texto */
     gap: 30px;                /* Espacio de separación entre la imagen y el texto */
@@ -283,7 +281,7 @@ a {
 }
 
 /* Columna del contenido (Texto) */
-.testimonials-content {
+.testimonials-text {
     flex: 1;
     min-width: 0;
     overflow: hidden;
@@ -581,7 +579,7 @@ footer {
         box-sizing: border-box;
     }
 
-    .testimonials-wrapper {
+    .testimonials-content {
         display: flex;
         flex-direction: column;
         align-items: center;
