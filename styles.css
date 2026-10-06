@@ -575,6 +575,15 @@ footer {
         height: auto;
     }
 
+    /* 4. Assegurem que la llista del carrusel no tingui posicions estranyes */
+    .testimonials-carrusel {
+      padding: 0;
+      margin: 20px 0 0 0;
+      list-style: none;
+      position: relative; /* Evita que surti del flux de la pàgina */
+      height: auto;       /* Assegura que l'alçada s'adapte al contingut */
+    }
+
     .cta-form {
         width: 100%;
         max-width: 500px;
