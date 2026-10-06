@@ -505,4 +505,19 @@ footer {
         min-height: auto;
         height: auto;
     }
+
+    cta-form {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    cta-form input,
+    cta-form textarea,
+    cta-form select,
+    cta-form button {
+        width: 100%;
+        max-width: 100%;
+    }
 }
