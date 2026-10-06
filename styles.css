@@ -336,6 +336,15 @@ a {
   color: #000000;
 }
 
+.cta-form input {
+    color: #000000;           /* Text negre per poder llegir el que escrius */
+    background-color: #ffffff; /* Fons blanc */
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    pointer-events: auto;     /* Assegura que es pugui clicar */
+}
+
 .cta-button {
     display: inline-block;
     padding: 16px 32px;
