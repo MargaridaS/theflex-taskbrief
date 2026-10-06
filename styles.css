@@ -470,7 +470,67 @@ footer {
         padding: 4px 0;
     }
   
-    .hero-content,
+    /* Hero Layout */
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        min-height: auto;
+        padding: 30px 20px;
+        gap: 25px;
+        box-sizing: border-box;
+    }
+
+    /* 1. La imatge surt primer a dalt de tot */
+    .hero-image {
+        order: 1;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 280px; /* Ajusta la mida de la imatge al mòbil */
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hero-image img {
+        display: block !important;
+        width: 100%;
+        height: auto;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* 2. Tot el bloc de text (títols, paràgraf i botó) va a sota de la imatge */
+    .hero-text {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .hero h2 {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-button {
+        width: 100%;
+        max-width: 280px;
+        box-sizing: border-box;
+    }
+  
     .benefits-content {
         display: flex;
         flex-direction: column;
@@ -481,40 +541,6 @@ footer {
         padding: 40px 20px;
         gap: 35px;
         box-sizing: border-box;
-    }
-  
-    .hero-image {
-      order: 1;
-      text-align: center;
-      justify-content: center;
-      display: flex !important;
-      width: 100%;
-      max-width: 320px;
-      height: auto;
-      margin: 0 auto;
-    }
-      
-    .hero-image img {
-        display: block !important;
-        width: 100%;
-        height: auto;           /* Manté la proporció */
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
-  
-    .hero h1 {
-        order: 2;
-        font-size: 2.2rem;
-    }
-
-    .hero h2 {
-        order: 3;
-        font-size: 1.5rem;
-    }
-
-    .hero-text {
-        order: 4;
-        text-align: center;
     }
   
     .benefits-video {
