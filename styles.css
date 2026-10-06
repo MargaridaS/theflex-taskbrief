@@ -486,23 +486,21 @@ footer {
     /* 1. La imatge surt primer a dalt de tot */
     .hero-image {
         order: 1;
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 280px; /* Ajusta la mida de la imatge al mòbil */
-        height: auto;
-        margin: 0 auto;
+        display: block !important;
+        width: 100% !important;
+        max-width: 280px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        overflow: visible !important;
     }
 
     .hero-image img {
         display: block !important;
-        width: 100%;
-        height: auto;
-        visibility: visible !important;
-        opacity: 1 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 100px !important; /* Força alçada mínima per veure si es reserva l'espai */
     }
-
+  
     /* 2. Tot el bloc de text (títols, paràgraf i botó) va a sota de la imatge */
     .hero-text {
         order: 2;
