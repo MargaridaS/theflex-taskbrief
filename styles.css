@@ -391,12 +391,38 @@ footer {
 
 /***** 7 - MOBILE PHONE *****/
 @media (max-width: 768px) {
-    .hero-content {
+    .hero-content,
+    .benefits-content {
         flex-direction: column;
+        width: 100%;
+        min-height: auto;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .hero-text,
+    .hero-image,
+    .benefits-text,
+    .benefits-image,
+    .benefits-video {
+        width: 100%;
+        flex: none;
+    }
+
+    .hero-text,
+    .benefits-text {
         text-align: center;
     }
 
-    .hero-text {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-image img,
+    .benefits-image img,
+    .benefits-video-custom {
+        width: 100%;
         max-width: 100%;
+        height: auto;
     }
 }
