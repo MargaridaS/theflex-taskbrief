@@ -271,7 +271,7 @@ a {
 
 .testimonials-image img {
     width: 100%;
-    max-width: 450px;         /* Limita el tamaño máximo de la foto de la mujer */
+    max-width: 450px;         /* Limita el tamaño máximo de la foto */
     height: auto;
     border-radius: 20px;      /* Bordes redondeados elegantes */
     display: block;
@@ -294,7 +294,7 @@ a {
     padding: 30px;
     border-radius: 15px;
     border-left: 4px solid #dbba76; /* Detall card */
-    max-width: 420px;   /* Estret card */
+    max-width: 320px;   /* Estret card */
     margin: 0 auto;    /* Centra la targeta dins la seva columna */
 }
 
@@ -592,19 +592,16 @@ footer {
 
     .testimonials-card {
         order: 1;
-        width: 100%;
-        max-width: 85% !important;
-        min-height: auto;
-        height: auto;
-        margin: 0 auto !important;  /* Centra la targeta horitzontalment */
-        padding: 20px;              /* Ajustem lleugerament el padding interior */
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
     }
   
     .testimonials-image {
         order: 2;
         width: 100%;
-        max-width: 360px;
-        min-height: auto;
+        max-width: 300px;
+        display: block;
         height: auto;
     }
 
