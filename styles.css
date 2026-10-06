@@ -324,24 +324,6 @@ a {
   scroll-snap-align: start;
 }
 
-.testimonials-card {
-  box-sizing: border-box;
-  padding: 30px;
-  border-radius: 10px;
-  background-color: #880904;
-  color: #ffffff;
-}
-
-.testimonials-card p {
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-.testimonials-card span {
-  font-size: 0.9rem;
-  color: #dbba76;
-}
-
 /***** 5 - CALL TO ACTION *****/
 /* Estilo */
 .cta-section {
