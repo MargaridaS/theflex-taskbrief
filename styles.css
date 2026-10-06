@@ -416,9 +416,11 @@ footer {
         margin: 0;
         list-style: none;
         flex-wrap: nowrap;
+        overflow-x: auto;
     }
 
-    navbar li {
+    navbar li,
+    navbar a {
         white-space: nowrap;
     }
 
@@ -454,7 +456,7 @@ footer {
 
     .hero h2 {
         order: 2;
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     
     .hero-image {
@@ -466,8 +468,6 @@ footer {
         order: 4;
         text-align: center;
     }
-
-
 
     .hero-image img,
     .benefits-image img,
@@ -519,5 +519,12 @@ footer {
     cta-form button {
         width: 100%;
         max-width: 100%;
+    }
+
+    .cta-form-row {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
     }
 }
