@@ -413,7 +413,6 @@ footer {
 @media (max-width: 768px) {
 
   /* Forcem que res surti de la pantalla */
-  /* 1. BLOC PER EVITAR QUE QUALSEVOL ELEMENT SURTI DE LA PANTALLA */
     html, body {
         width: 100%;
         max-width: 100vw;
@@ -576,13 +575,11 @@ footer {
         display: block;
     }
 
-    .testimonials-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .testimonials {
         gap: 25px;
         width: 100%;
-        padding: 0 20px;
+        padding: 40px 0;
+        box-sizing: border-box;
     }
 
     .testimonials-wrapper {
