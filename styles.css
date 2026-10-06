@@ -183,7 +183,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
     width: 95%;
     max-width: 1400px;
     min-height: 80vh;
@@ -193,8 +193,9 @@ a {
 
 /* Ancho de la columna de texto */
 .benefits-text {
-  flex: 1;
+  flex: 1 1 0;
   text-align: left;
+  min-width: 0;
 }
 
 /* Espai entre línies */
@@ -211,25 +212,12 @@ a {
   margin-bottom: 35px;
 }
 
-/* Ancho y control de la imagen */
-.benefits-image {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start; /* Alinea el contenido hacia la izquierda del todo */
-    align-items: center;  
-}
-
-.benefits-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px; /* bordes redondeados */
-}
-
 .benefits-video {
-  flex: 1;
+  flex: 1 1 0;
   display: flex;
   justify-content: center; /* centrat horitzontal */ 
-  align-items: center; /* centrat vertical */           
+  align-items: center; /* centrat vertical */   
+  min-width: 0;
 }
 
 .benefits-video-custom {
