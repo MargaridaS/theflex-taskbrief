@@ -247,7 +247,8 @@ a {
 .testimonials {
   background-color: #000000;
   color: #f5f0e8;
-  padding: 100px 40px;
+  marging: 0 auto;
+  padding: 40px 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;  
 }
