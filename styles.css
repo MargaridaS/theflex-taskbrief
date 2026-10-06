@@ -438,11 +438,11 @@ footer {
         display: none;
     }
 
-    .navbar-menu-mobile {
-      display: block;
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    .navbar ul.navbar-menu-mobile {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
     .navbar-menu-mobile a {
