@@ -113,6 +113,11 @@ a {
     font-size: 3rem;
     color: #880904;
     text-shadow: 1px 1px 0px #dbba76;
+    margin-bottom: 35px;
+}
+
+.hero h2 {
+    margin-bottom: 35px;
 }
 
 /* Ancho de la columna de texto */
@@ -345,6 +350,10 @@ a {
 .cta-section p {
   margin: 0 0 30px;
   color: #000000;
+}
+
+.cta-section h1 {
+  text-shadow: 1px 1px 0px #dbba76;
 }
 
 /* Estructura per alinear horitzontalment */
