@@ -517,16 +517,16 @@ footer {
         width: 100%;
         max-width: 400px;
         height: auto;
+        margin: 0 auto;   /* Assegura el centrat del block */
     }
 
     .benefits-video {
         order: 1;
         display: flex;
+        justify-content: center; /* Centra el vídeo horitzontalment */
+        align-items: center;     /* Centra el vídeo verticalment */
         width: 100%;
-        height: 300px;
-        object-fit: cover;
-        justify-content: center;
-        align-items: center;
+        height: auto;            /* Canviat de 300px a auto per evitar tallar-lo */
     }
 
     .benefits-text {
