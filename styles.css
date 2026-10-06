@@ -45,6 +45,7 @@ body {
     background-color: #000000; /* Fondo negro */
     color: #ffffff;            /* Texto base blanco */
     padding-top: 90px; /*distància respecte el navbar */
+    overflow-x: hidden;
 }
 
 /* Títulos generales */
