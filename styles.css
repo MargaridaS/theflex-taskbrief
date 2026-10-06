@@ -502,6 +502,15 @@ footer {
     }
 
     .testimonials-card {
+        order: 1;
+        width: 100%;
+        max-width: 360px;
+        min-height: auto;
+        height: auto;
+    }
+  
+    .testimonials-image {
+        order: 2;
         width: 100%;
         max-width: 360px;
         min-height: auto;
