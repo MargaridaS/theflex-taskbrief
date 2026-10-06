@@ -201,7 +201,7 @@ a {
 
 /* Espai entre línies */
 .benefits-text p{
-  line-height: 35px;
+  margin-bottom: 35px;
   color: #000000;
 }
 
