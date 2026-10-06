@@ -419,6 +419,10 @@ footer {
         flex-basis: 100%; /* primera línia */
     }
 
+    .navbar-discount {
+      display: none;
+    }
+
     .navbar-discount-mobile {
       font-size: 0.8rem;
       line-height: 1.2;
