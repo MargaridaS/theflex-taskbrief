@@ -230,8 +230,8 @@ a {
 .benefits-video {
   flex: 1;
   display: flex;
-  justify-content: flex-start; 
-  align-items: left;            
+  justify-content: center; /* centrat horitzontal */ 
+  align-items: center; /* centrat vertical */           
 }
 
 .benefits-video-custom {
