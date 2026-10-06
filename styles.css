@@ -447,8 +447,7 @@ footer {
         flex: none;
     }
 
-    .hero-text,
-    .benefits-text {
+    .hero-text {
         text-align: center;
     }
 
@@ -466,9 +465,15 @@ footer {
     }
 
     .benefits-video {
+        order: 1;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .benefits-text {
+         order: 2;
+        text-align: center;
     }
 
     .cards-container {
