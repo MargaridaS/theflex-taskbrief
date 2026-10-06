@@ -511,8 +511,7 @@ footer {
     }
 
     .hero-image img,
-    .benefits-image img,
-    .benefits-video-custom {
+    .benefits-image img {
         display: block;
         width: 100%;
         max-width: 400px;
@@ -527,6 +526,15 @@ footer {
         align-items: center;     /* Centra el vídeo verticalment */
         width: 100%;
         height: auto;            /* Canviat de 300px a auto per evitar tallar-lo */
+    }
+
+    /* Reduïm la mida màxima del vídeo */
+    .benefits-video-custom {
+      display: block;
+      width: 100%;
+      max-width: 280px; /* <--- Canvia aquest valor per ajustar la mida (p. ex. 250px, 280px, 300px) */
+      height: auto;
+      margin: 0 auto;
     }
 
     .benefits-text {
