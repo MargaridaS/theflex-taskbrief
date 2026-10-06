@@ -435,17 +435,26 @@ footer {
   
    /* Amaguem el menú llarg */
     .navbar ul.navbar-menu {
-        display: none;
+        display: none !important;
     }
 
     .navbar ul.navbar-menu-mobile {
-        display: block;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         margin: 0;
         padding: 0;
         list-style: none;
     }
 
+    .navbar ul.navbar-menu-mobile li {
+        display: block !important;
+    }
+
     .navbar-menu-mobile a {
+      display: block !important;
+      color: white !important;
+      visibility: visible !important;
       color: inherit;
       text-decoration: none;
       font-size: 14px;
