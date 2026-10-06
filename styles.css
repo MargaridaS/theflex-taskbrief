@@ -576,6 +576,7 @@ footer {
         width: 100%;
         padding: 40px 0 !important;
         box-sizing: border-box;
+        overflow: hidden; /* Evita qualsevol desbordament fora de la pantalla */
     }
 
     .testimonials-content {
