@@ -289,7 +289,7 @@ a {
     align-items: flex-start;  /* Alinea el títol i les targetes exactament a l'esquerra */
 }
 
-.testimonials-content h2 {
+.testimonials-text h2 {
     font-size: 2.2rem;         
     margin-bottom: 25px;
     text-align: left;          /* Assegura alineació esquerra amb la targeta */
