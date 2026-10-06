@@ -116,10 +116,6 @@ a {
     margin-bottom: 35px;
 }
 
-.hero h2 {
-    margin-bottom: 35px;
-}
-
 /* Ancho de la columna de texto */
 .hero-text {
     flex: 1;
