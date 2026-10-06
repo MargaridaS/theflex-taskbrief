@@ -449,6 +449,7 @@ footer {
     .navbar ul.navbar-menu-mobile {
         display: flex !important;
         align-items: center;
+        justify-content: flex-end; /* Alinea el contingut a la dreta pero respectant el padding */
         margin: 0;
         padding: 0;
         list-style: none;
