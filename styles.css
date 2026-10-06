@@ -250,16 +250,20 @@ a {
   padding: 100px 40px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  display: flex;
-  align-items: center;
+  
+  
 }
 
 /* El nuevo contenedor que envuelve las dos columnas */
 .testimonials-wrapper {
     display: flex;
     align-items: center;      /* Centra verticalmente la imagen y el texto */
-    gap: 60px;                /* Espacio de separación entre la imagen y el texto */
-    padding: 80px 40px;
+    gap: 30px;                /* Espacio de separación entre la imagen y el texto */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Columna de la imagen */
